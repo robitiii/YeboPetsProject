@@ -88,10 +88,23 @@ const BookingPage = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: `${formData.firstName} ${formData.lastName}`,
+          // Service Details
+          service: formData.service,
+          petType: formData.petType,
+          petName: formData.petName,
+          
+          // Schedule Details
+          dateTime: formData.dateTime,
+          duration: formData.duration,
+          frequency: formData.frequency,
+          
+          // Customer Details
+          firstName: formData.firstName,
+          lastName: formData.lastName,
           email: formData.email,
-          date: formData.dateTime,
-          message: formData.specialInstructions,
+          phone: formData.phone,
+          address: formData.address,
+          specialInstructions: formData.specialInstructions,
         }),
       });
 
