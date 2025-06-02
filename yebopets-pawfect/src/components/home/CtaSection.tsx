@@ -1,6 +1,6 @@
-
 import { Link } from 'react-router-dom';
 import { PawPrint } from 'lucide-react';
+import NewsletterForm from '@/components/newsletter/NewsletterForm';
 
 const CtaSection = () => {
   return (
@@ -15,13 +15,24 @@ const CtaSection = () => {
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
             Book a service today and join thousands of happy pets and their owners who trust YeboPets for professional care.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center">
+          <div className="flex flex-wrap gap-4 justify-center mb-12">
             <Link to="/book" className="btn btn-secondary btn-lg">
               Book a Service
             </Link>
             <Link to="/contact" className="btn btn-outline bg-transparent border-white text-white hover:bg-white hover:text-yebo-teal btn-lg">
               Contact Us
             </Link>
+          </div>
+
+          {/* Newsletter Section */}
+          <div className="mt-12 pt-12 border-t border-white/20">
+            <h3 className="text-2xl font-bold mb-4">Stay Updated</h3>
+            <p className="text-lg mb-6 opacity-90">
+              Subscribe to our newsletter for pet care tips, special offers, and updates.
+            </p>
+            <div className="max-w-md mx-auto">
+              <NewsletterForm />
+            </div>
           </div>
         </div>
       </div>
