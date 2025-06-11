@@ -29,9 +29,9 @@ const Navbar = () => {
           <Link to="/about" className="text-base font-medium text-gray-700 hover:text-yebo-teal transition-colors">
             About Us
           </Link>
-          <Link to="/blog" className="text-base font-medium text-gray-700 hover:text-yebo-teal transition-colors">
+          {/* <Link to="/blog" className="text-base font-medium text-gray-700 hover:text-yebo-teal transition-colors">
             Blog
-          </Link>
+          </Link> */}
           <Link to="/contact" className="text-base font-medium text-gray-700 hover:text-yebo-teal transition-colors">
             Contact
           </Link>

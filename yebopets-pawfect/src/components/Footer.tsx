@@ -20,12 +20,12 @@ const Footer = () => {
               <a href="https://facebook.com" className="hover:text-yebo-yellow transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="https://www.instagram.com/trio_thrillers?igsh=MTV3b3ViNG80NXRvZw==" className="hover:text-yebo-yellow transition-colors" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/yebopets" className="hover:text-yebo-yellow transition-colors" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                 <Instagram size={20} />
               </a>
-              <a href="https://twitter.com" className="hover:text-yebo-yellow transition-colors" aria-label="Twitter">
+              {/* <a href="https://twitter.com" className="hover:text-yebo-yellow transition-colors" aria-label="Twitter">
                 <Twitter size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -60,11 +60,11 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/blog" className="text-gray-300 hover:text-yebo-yellow transition-colors">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="text-gray-300 hover:text-yebo-yellow transition-colors">
                   Contact Us
@@ -84,7 +84,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-yebo-yellow shrink-0 mt-0.5" />
-                <span className="text-gray-300">123 Pet Street, Cape Town, 8000, South Africa</span>
+                <span className="text-gray-300">Cape Town, 7441, South Africa</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-yebo-yellow shrink-0" />
@@ -100,9 +100,9 @@ const Footer = () => {
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-yebo-yellow shrink-0" />
                 <div className="flex flex-col">
-                  <a href="mailto:info@yebopets.co.za" className="text-gray-300 hover:text-yebo-yellow transition-colors">
+                  {/* <a href="mailto:info@yebopets.co.za" className="text-gray-300 hover:text-yebo-yellow transition-colors">
                     info@yebopets.co.za
-                  </a>
+                  </a> */}
                   <a href="mailto:yebopets@gmail.com" className="text-gray-300 hover:text-yebo-yellow transition-colors">
                     yebopets@gmail.com
                   </a>

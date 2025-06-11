@@ -9,9 +9,9 @@ const services = [
     title: "Pet Walking",
     description: "Keep your pet healthy and happy with regular exercise. Our professional pet walkers provide personalized walks tailored to your pet's energy level and preferences.",
     pricing: [
-      { name: "Single Walk (30 min)", price: "R120" },
-      { name: "5-Walk Package", price: "R550" },
-      { name: "10-Walk Package", price: "R1000" },
+      { name: "Single Walk (30 min)", price: "R45" },
+      { name: "5-Walk Package", price: "R225" },
+      { name: "10-Walk Package", price: "R450" },
     ],
     image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?fit=crop&w=600&h=400"
   },
@@ -22,7 +22,7 @@ const services = [
     pricing: [
       { name: "Half-Day Visit (4 hours)", price: "R250" },
       { name: "Full Day (8 hours)", price: "R450" },
-      { name: "Overnight Stay", price: "R650" },
+      { name: "Overnight Stay", price: "R400" },
     ],
     image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?fit=crop&w=600&h=400"
   },
@@ -31,8 +31,8 @@ const services = [
     title: "Paw Shotz",
     description: "Capture lasting memories of your beloved pet with our professional photography services. We specialize in bringing out your pet's unique personality in every shot.",
     pricing: [
-      { name: "Basic Session (30 min, 5 photos)", price: "R350" },
-      { name: "Standard Session (1 hour, 15 photos)", price: "R650" },
+      { name: "Basic Session (30 min, 5 photos)", price: "R200" },
+      { name: "Standard Session (1 hour, 15 photos)", price: "R600" },
       { name: "Premium Package (2 hours, 30 photos)", price: "R1200" },
     ],
     image: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?fit=crop&w=600&h=400"

@@ -11,14 +11,14 @@ const testimonials = [
     id: 2,
     content: "I travel frequently for business and knowing my cats are in good hands with YeboPets gives me such peace of mind. Highly recommend their pet sitting services.",
     author: "James K.",
-    location: "Johannesburg",
+    location: "Cape Town",
     image: "https://randomuser.me/api/portraits/men/32.jpg"
   },
   {
     id: 3,
     content: "After trying several pet care services, YeboPets stands out for their professionalism and genuine love for animals. My pup can't wait for their visits!",
     author: "Thandi N.",
-    location: "Durban",
+    location: "Cape Town",
     image: "https://randomuser.me/api/portraits/women/44.jpg"
   },
 ];

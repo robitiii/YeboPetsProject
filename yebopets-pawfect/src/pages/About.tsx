@@ -1,33 +1,35 @@
-
 import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import { PawPrint } from "lucide-react";
+import robertKaneImage from "@/assets/robertKane.jpg";
+import danielKassyImage from "@/assets/danielKassy.jpg";
+import esthelleBirulaImage from "@/assets/esthelleBirula.jpg"
 
 const team = [
   {
-    name: "Sarah Johnson",
-    title: "Founder & Head Pet Care Specialist",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
-    bio: "Sarah has over 10 years of experience in animal care and founded YeboPets with a mission to provide professional, loving care for pets across South Africa."
+    name: "Robert Kanegamba",
+    title: "Full Stack Software Developer",
+    image: robertKaneImage,
+    bio: "Passionate software developer and the founder of YeboPets. I built YeboPets to connect caring teenagers with pet owners who need trusted, affordable services.Before diving into tech, I spent years walking dogs, pet-sitting, and helping families care for their furry friends. That experience shaped my vision: to create a platform that combines reliability, community, and convenience for pet owners."
   },
   {
-    name: "Michael Ndlovu",
+    name: "Daniel Kassy",
     title: "Lead Dog Trainer",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: danielKassyImage,
     bio: "With certification in positive reinforcement training techniques, Michael helps pets and their owners build stronger relationships through effective training."
   },
   {
-    name: "Thandi Nkosi",
+    name: "Esther Biruli",
     title: "Pet Care Coordinator",
-    image: "https://randomuser.me/api/portraits/women/44.jpg", 
+    image: esthelleBirulaImage, 
     bio: "Thandi ensures all YeboPets services run smoothly, coordinating our team of pet care specialists and managing client relationships."
   },
-  {
-    name: "James Wilson",
-    title: "Veterinary Consultant",
-    image: "https://randomuser.me/api/portraits/men/52.jpg",
-    bio: "Dr. Wilson provides expert veterinary advice to our team and clients, helping us maintain the highest standards of pet health and safety."
-  }
+  // {
+  //   name: "James Wilson",
+  //   title: "Veterinary Consultant",
+  //   image: "https://randomuser.me/api/portraits/men/52.jpg",
+  //   bio: "Dr. Wilson provides expert veterinary advice to our team and clients, helping us maintain the highest standards of pet health and safety."
+  // }
 ];
 
 const About = () => {
@@ -57,10 +59,10 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-yebo-navy">Our Story</h2>
               <p className="text-gray-700">
-                YeboPets was founded in 2015 by Sarah Johnson, a lifelong animal lover with a vision to create a pet care service that treated animals with the same love and respect that their owners do.
+              YeboPets is a fresh startup built by youth, for youth. We're just getting started, but our mission is bold — to empower young people in South Africa by creating simple, local job opportunities like dog walking and pet-sitting.
               </p>
               <p className="text-gray-700">
-                Starting with just dog walking services in Cape Town, YeboPets quickly expanded as pet owners recognized our commitment to quality care. Today, we offer a comprehensive range of services across South Africa's major cities.
+              YeboPets was founded in 2025 by Robert Kanegamba and Daniel Kassy, two driven students and lifelong animal lovers. They envisioned a pet care service that not only provided excellent care for animals but also created a new path for young people to earn passive income while still in high school - all while treating pets with the same love and respect their owners do.
               </p>
               <p className="text-gray-700">
                 Our name combines "Yebo" (meaning "yes" in Zulu) with "Pets" to reflect our positive, affirming approach to pet care and our South African roots.

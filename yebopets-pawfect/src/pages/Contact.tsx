@@ -54,7 +54,7 @@ const Contact = () => {
                     <MapPin className="h-5 w-5 text-yebo-teal shrink-0 mt-0.5" />
                     <div>
                       <h3 className="font-medium">Address</h3>
-                      <p className="text-gray-600">123 Pet Street, Cape Town, 8000, South Africa</p>
+                      <p className="text-gray-600">Cape Town, 7441, South Africa</p>
                     </div>
                   </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium">Phone</h3>
                       <a href="tel:+27123456789" className="text-gray-600 hover:text-yebo-teal transition-colors">
-                        +27 12 345 6789
+                        +27 74 654 3765
                       </a>
                     </div>
                   </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-medium">Email</h3>
                       <a href="mailto:info@yebopets.co.za" className="text-gray-600 hover:text-yebo-teal transition-colors">
-                        info@yebopets.co.za
+                        yebopets@gmail.com
                       </a>
                     </div>
                   </div>
@@ -82,9 +82,9 @@ const Contact = () => {
                     <Clock className="h-5 w-5 text-yebo-teal shrink-0 mt-0.5" />
                     <div>
                       <h3 className="font-medium">Hours</h3>
-                      <p className="text-gray-600">Monday-Friday: 8am - 6pm</p>
-                      <p className="text-gray-600">Saturday: 9am - 4pm</p>
-                      <p className="text-gray-600">Sunday: Closed</p>
+                      <p className="text-gray-600">Monday-Friday: 8am - 7pm</p>
+                      <p className="text-gray-600">Saturday-Sunday: 9am - 4pm</p>
+                      <p className="text-gray-600">After Hours: Varies on client </p>
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Contact = () => {
                     <Facebook size={24} />
                   </a>
                   <a 
-                    href="https://www.instagram.com/trio_thrillers?igsh=MTV3b3ViNG80NXRvZw==" 
+                    href="https://www.instagram.com/yebopets" 
                     className="btn btn-outline p-3 rounded-full hover:bg-yebo-teal hover:text-white transition-colors"
                     aria-label="Instagram"
                     target="_blank" 
